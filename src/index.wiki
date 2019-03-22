@@ -1,4 +1,3 @@
-%template math
 = Linear Algebra =
 - [[/introduction#Introduction|Introduction]]
     - [[/introduction#Introduction#Linear Equations|Linear Equations]]
