@@ -30,7 +30,7 @@ properties:
     * $(NulA)^\perp = (colA)^T$
 
 === Orthogonal sets ===
-a set $\{v_1 \dots v_p\}$ is orthogonal if $v_i \cdot v_j = 0 \forall i,j$. then $\{v_1 \dots v_p\} is a basis for $\text{Span}\{v_1 \dots v_p\}$
+a set $\{v_1 \dots v_p\}$ is orthogonal if $v_i \cdot v_j = 0 \forall i,j$. then $\{v_1 \dots v_p\}$ is a basis for $\text{Span}\{v_1 \dots v_p\}$
 
 An orthogonal basis is a basis that is also an orthogonal set
 
@@ -46,7 +46,7 @@ An m × matrix A has orthonormal columns iff $A^T A = I_n$
 ==== Orthogonal decomposition ====
 Let W be a subspace of $\Re^n$. Each y in $R^n$ can be written uniquely in $y = \hat{y}+z$ ($\hat{y} \in W,\; z \in W^\perp$)
 
-If $\{u_1, \ldots, u_p\}$ in orthogonal basis of W, then $\hat{y} = \frac{y \cdot u_1}{u_1 \cdot u_1} u_1 + \ldots + \frac{y \cdot u_p}{u_p \cdot u_p}u_p}$
+If $\{u_1, \ldots, u_p\}$ in orthogonal basis of W, then $\hat{y} = \frac{y \cdot u_1}{u_1 \cdot u_1} u_1 + \ldots + \frac{y \cdot u_p}{u_p \cdot u_p}u_p$
 
 ŷ is an orthogonal projection of y onto W ($proj_w y$)
 
@@ -56,7 +56,7 @@ Let W be subspace of $\Re^n$, y a vector in $\Re^n$, ŷ an orthogonal projection
 Then $\|y-\hat{y}\| < \|y-v\|$
 
 ==== When basis for W is an orthonormal set ====
-If $\{u_1 \ldots u_p\}$ is orthonormal basis for subspace W of $\Re^n$, then $\text{proj}_w y = (y \cdot u_1)u_1 + \dots + (y \codt u_p) u_p$
+If $\{u_1 \ldots u_p\}$ is orthonormal basis for subspace W of $\Re^n$, then $\text{proj}_w y = (y \cdot u_1)u_1 + \dots + (y \cdot u_p) u_p$
 
 If U = $\begin{bmatrix} u_1 & u_2 & \dots & u_p \end{bmatrix}$, then $\text{proj}_w y = UU^T y \quad \forall y \in \Re^n$
 
