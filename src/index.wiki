@@ -1,4 +1,6 @@
 = Linear Algebra =
+If you need help with any of the topics, check out [[https://www.youtube.com/user/patrickJMT|PatrickJMT on Youtube]]. He has some of the best math videos on the internet.
+
 - [[/introduction#Introduction|Introduction]]
     - [[/introduction#Introduction#Linear Equations|Linear Equations]]
     - [[/introduction#Introduction#Matrix notation|Matrix notation]]
