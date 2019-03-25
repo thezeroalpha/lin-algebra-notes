@@ -29,6 +29,8 @@ $(AB)_{ij} = a_{i1} b_{1j} + a_{i2} b_{2j} + \dots + a_{in} b_{nj}$
 
 $row_i (AB) = row_i (A) \times B$
 
+a nifty trick: if multiplying matrix m×n by matrix n×o, the product will be a matrix m×o.
+
 === Powers of a matrix ===
 $A^k = \underbrace{A \dots A}_{k}$
 
@@ -75,5 +77,5 @@ if elementary row operation is performed on m × n matrix A, result is EA, with 
 
 inverse of any elementary matrix E is of same type that transforms E back into I.
 
-an n × n matrix A is only invertible if A is row equivalent to $I_n$. any sequence of elementary operations reducing A to $I_n$ also transforms $I_n$ into $A^{-1}$.
+an n² matrix A is only invertible if A is row equivalent to $I_n$. any sequence of elementary operations reducing A to $I_n$ also transforms $I_n$ into $A^{-1}$.
 

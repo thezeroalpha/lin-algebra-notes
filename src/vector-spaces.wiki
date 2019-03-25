@@ -7,13 +7,15 @@ subspace of $\Re^n$ is any set H in $\Re^n$ that has properties:
 the zero subspace is the set that only contains zero vector in $\Re^n$
 
 === Column space and null space of a matrix ===
-column space: set of all linear combinations of the columns of a matrix
+column space: set of all linear combinations of the columns of a matrix. it's the _span_ of the columns of the matrix.
 
 column space of m × n matrix is subspace of $\Re^m$
 
 null space: set of all solutions of equation $Ax = 0$.
 
 null space of an m × n matrix is subspace of $\Re^n$.
+
+to determine if p is in Nul A, check if Ap = 0. if so, p is in Nul A.
 
 === Basis for a subspace ===
 basis for subspace H of $\Re^n$ is linearly independent set in H spanning H

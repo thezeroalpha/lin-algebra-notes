@@ -16,8 +16,13 @@ $\begin{bmatrix} 1 & 0 & h\\ 0 & 1 & k\\ 0 & 0 & 1\end{bmatrix} \begin{bmatrix} 
 
 $x = \frac{X}{H}, \quad y = \frac{Y}{H}, \quad \text{and} \; z = \frac{Z}{H}$
 
+=== Matrices for typical transformations ===
+{{file:img/typical-transformations.png|Typical transformations}}
+
 === Composite transformations ===
 when you need two or more basic transformations, such a composite transformation is a matrix multiplication.
+
+matrices for new transformations are "prepended" in multiplication. so if you're rotating, then translating, the calculation is `[matrix for translation][matrix for rotation]`.
 
 === Perspective projections ===
 maps each point (x, y, z) onto an image point (x*, y*, 0) so that two points and eye position (center of projection) are on a line.

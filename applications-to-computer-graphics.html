@@ -40,9 +40,18 @@ e.g. translation is not a linear transformation. but \((x, y) \mapsto (x+h, y+k)
 \(x = \frac{X}{H}, \quad y = \frac{Y}{H}, \quad \text{and} \; z = \frac{Z}{H}\)
 </p>
 
+<div id="Applications to computer graphics-Matrices for typical transformations"><h3 id="Matrices for typical transformations">Matrices for typical transformations</h3></div>
+<p>
+<img src="img/typical-transformations.png" alt="Typical transformations" />
+</p>
+
 <div id="Applications to computer graphics-Composite transformations"><h3 id="Composite transformations">Composite transformations</h3></div>
 <p>
 when you need two or more basic transformations, such a composite transformation is a matrix multiplication.
+</p>
+
+<p>
+matrices for new transformations are "prepended" in multiplication. so if you're rotating, then translating, the calculation is <code>[matrix for translation][matrix for rotation]</code>.
 </p>
 
 <div id="Applications to computer graphics-Perspective projections"><h3 id="Perspective projections">Perspective projections</h3></div>
