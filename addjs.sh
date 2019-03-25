@@ -7,5 +7,4 @@ elif [ $# -ne 1 ]; then
   exit 1
 fi
 
-vim -c 'v/<head>\n<script/ s#<head>#<head>\
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>' -c 'wq' $1
+vim -c 'v/<head><script/ s#<head>#<head><script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>' -c 'wq' $1
