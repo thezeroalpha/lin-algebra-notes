@@ -46,7 +46,7 @@ A is diagonalizable if A is similar to a diagonal matrix.
 
 Diagonalization Theorem: A (n × n) is diagonalizable iff A has n linearly independent eigenvectors (the eigenbasis for $\Re^n$)
 
-$A = P D P^{-1} \leftrightarrow$ columns of D are linearly independent eigenvectors and the diagonals of D are corresponding eigenvectors.
+$A = P D P^{-1} \leftrightarrow$ columns of P are linearly independent eigenvectors, and the diagonal values of D are the eigenvalues corresponding to the eigenvectors in P.
 
 How to diagonalize a matrix:
     1. Find eigenvalues of A
